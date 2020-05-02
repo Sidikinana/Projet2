@@ -124,7 +124,6 @@ class Plante extends Model
      */
     public static $rules = [
         'nomScientifique' => 'required',
-        'nomFulfulde' => 'required',
         'enDanger' => 'required',
         'photo' => 'required'
     ];

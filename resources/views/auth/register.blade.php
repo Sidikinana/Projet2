@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>InfyOm Laravel Generator | Registration Page</title>
+    <title>Plantes Medecinales| Inscription</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -34,7 +34,7 @@
 <body class="hold-transition register-page">
 <div class="register-box">
     <div class="register-logo">
-        <a href="{{ url('/home') }}"><b>InfyOm </b>Generator</a>
+        <a href="{{ url('/home') }}"><b>Plantes </b>Medecinales</a>
     </div>
 
     <div class="register-box-body">
@@ -126,5 +126,8 @@
         });
     });
 </script>
+ <footer class="main-footer" style="max-height: 100px;text-align: center">
+            <strong>Copyright © 2020 <a href="http://incubuo.tech/">INCUB@UO</a></strong> Tous droits réservés.
+</footer>
 </body>
 </html>

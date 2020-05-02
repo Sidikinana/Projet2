@@ -11,7 +11,7 @@
             <div class="box-body">
                 <div class="row" style="padding-left: 20px">
                     @include('region_pratiquees.show_fields')
-                    <a href="{{ route('regionPratiquees.index') }}" class="btn btn-default">Back</a>
+                    <a href="{{ route('regionPratiquees.index') }}" class="btn btn-default">Retour</a>
                 </div>
             </div>
         </div>

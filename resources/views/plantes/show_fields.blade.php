@@ -1,31 +1,30 @@
 <!-- Nomscientifique Field -->
 <div class="form-group">
     {!! Form::label('nomScientifique', 'Nomscientifique:') !!}
-    <p>{{ $plante->nomScientifique }}</p>
+    {{ $plante->nomScientifique }}
 </div>
 
 <!-- Espece Field -->
 <div class="form-group">
-    {!! Form::label('espece', 'Espece:') !!}
-    <p>{{ $plante->espece }}</p>
+    {!! Form::label('espece', 'Espece:') !!} {{ $plante->espece }}
 </div>
 
 <!-- Famille Field -->
 <div class="form-group">
     {!! Form::label('famille', 'Famille:') !!}
-    <p>{{ $plante->famille }}</p>
+    {{ $plante->famille }}
 </div>
 
 <!-- Nommoore Field -->
 <div class="form-group">
     {!! Form::label('nomMoore', 'Nommoore:') !!}
-    <p>{{ $plante->nomMoore }}</p>
+    {{ $plante->nomMoore }}
 </div>
 
 <!-- Nomdioula Field -->
 <div class="form-group">
     {!! Form::label('nomDioula', 'Nomdioula:') !!}
-    <p>{{ $plante->nomDioula }}</p>
+    {{ $plante->nomDioula }}
 </div>
 
 <!-- Nomfulfulde Field -->

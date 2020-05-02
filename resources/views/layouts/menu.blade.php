@@ -1,5 +1,5 @@
 <li class="{{ Request::is('users*') ? 'active' : '' }}">
-    <a href="{{ route('users.index') }}"><i class="fa fa-edit"></i><span>Users</span></a>
+    <a href="{{ route('users.index') }}"><i class="fa fa-edit"></i><span>Utlisateurs</span></a>
 </li><li class="{{ Request::is('plantes*') ? 'active' : '' }}">
     <a href="{{ route('plantes.index') }}"><i class="fa fa-edit"></i><span>Plantes</span></a>
 </li>

@@ -42,16 +42,16 @@ class PlanteDataTable extends DataTable
         return $this->builder()
             ->columns($this->getColumns())
             ->minifiedAjax()
-            ->addAction(['width' => '120px', 'printable' => false])
+            ->addAction(['width' => '100px', 'printable' => false])
             ->parameters([
                 'dom'       => 'Bfrtip',
                 'stateSave' => true,
                 'order'     => [[0, 'desc']],
                 'buttons'   => [
-                    ['extend' => 'create', 'className' => 'btn btn-default btn-sm no-corner',],
+                   /* ['extend' => 'create', 'className' => 'btn btn-default btn-sm no-corner',],*/
                     ['extend' => 'export', 'className' => 'btn btn-default btn-sm no-corner',],
                     ['extend' => 'print', 'className' => 'btn btn-default btn-sm no-corner',],
-                    ['extend' => 'reset', 'className' => 'btn btn-default btn-sm no-corner',],
+                   /* ['extend' => 'reset', 'className' => 'btn btn-default btn-sm no-corner',],*/
                     ['extend' => 'reload', 'className' => 'btn btn-default btn-sm no-corner',],
                 ],
             ]);
@@ -72,7 +72,8 @@ class PlanteDataTable extends DataTable
             'nomDioula',
             'nomFulfulde',
             'enDanger',
-            'photo'
+            'photo',
+            'zoneRencontrees'
         ];
     }
 

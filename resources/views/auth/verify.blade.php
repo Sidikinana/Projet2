@@ -5,20 +5,20 @@
         <div class="row justify-content-center">
             <div class="col-md-7" style="margin-top: 2%">
                 <div class="box">
-                    <h3 class="box-title" style="padding: 2%">Verify Your Email Address</h3>
+                    <h3 class="box-title" style="padding: 2%">Vérifiez votre adresse électronique</h3>
 
                     <div class="box-body">
                         @if (session('resent'))
-                            <div class="alert alert-success" role="alert">A fresh verification link has been sent to
-                                your email address
+                            <div class="alert alert-success" role="alert">Un nouveau lien de vérification a été envoyé à
+                                votre adresse électronique
                             </div>
                         @endif
-                        <p>Before proceeding, please check your email for a verification link.If you did not receive
-                            the email,</p>
+                        <p>Avant de poursuivre, veuillez vérifier votre courriel pour un lien de vérification. Si vous n'avez pas reçu
+                            le courrier électronique,</p>
                         <form class="d-inline" method="POST" action="{{ route('verification.resend') }}">
                             @csrf
                             <button type="submit" class="btn btn-link">
-                                click here to request another
+                                cliquez ici pour en demander une autre
                             </button>
                         </form>
                     </div>
